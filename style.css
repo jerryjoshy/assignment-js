@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    width: 100%;
+    background-color:rgb(37, 31, 31);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    
+}
+header a{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/431/918/original/abstract-blue-background-with-wavy-curves-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    align-items: center;
+}
+.main-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+}
+.main-container h1{n
+    margin: 0;
+}
+
+
+.left-section{
+    width: 400px;
+    align-self:flex-start;
+}
+
+.left-section h1{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+
+}
+.left-section p{
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:rgba(255,255,255,0.875);
+    margin-top: 20px;
+    line-height:28px;
+}
+.left section button{
+    color:rgba(37, 31, 31,0.879);
+    font-weight: bolder;
+    border:none;
+    border-radius: 6px;
+    padding: 12px 50px;
+    margin-top: 15px;
+}
+.right-section{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 10px;
+    box-shadow: 0 5px 6px rgba(255,255,255,.875)
+}
+.right-section h4{
+    font-size: 20px;
+    color: rgb(37, 31, 31);
+    margin: auto;
+    margin-bottom: 30px;
+    width: 300px;
+
+} 
+    .input-group{
+        width: 300px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .input-group label{
+        color: rgba(255,255,255,.875);
+        font-size: 14px;
+
+    }
+    .submit-section{
+        text-align: center;
+
+    }
+    
+    .submit-button {
+        background-color: rgb(37, 31, 31);
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .section-two
+    {
+        display: flex;
+        justify-content: space-evenly;
+        height: 100vh;
+        align-items: center;
+    }
+    .card-container{
+        width: 400px;
+        height: 500px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 10px 5px 26px rgb(37, 31, 31);
+
+    }
+    .card-container h1{
+        color: rgb(37, 31, 31);
+        
+    }
+    .image-container{
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+
+    }
+    .image-container img
+    {
+        width: 100%;
+        height: 90%;
+        transition: 0.5s;
+
+    }
+    .image-container img:hover{
+        transform: scale(1.1) rotate(5 deg);
+
+    }
+    footer{
+        text-align: center;
+        color: rgb(37, 31, 31);
+        font-weight: bold;
+        padding: 15px;
+
+    }
